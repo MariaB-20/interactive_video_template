@@ -1,0 +1,121 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+html,
+body {
+    height: 100%;
+    color: #000000;
+    overflow-x: hidden;
+}
+
+.large-pad {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.pad-top-small {
+    padding-top: 30px;
+}
+
+.pad-bottom-small {
+    padding-bottom: 30px;
+}
+
+.pad-top {
+    padding-top: 60px;
+}
+
+.pad-bottom {
+    padding-bottom: 60px;
+}
+
+.margin-top {
+    margin-top: 60px;
+}
+
+.margin-bottom {
+    margin-bottom: 60px;
+}
+
+@media (max-width:1386px) {
+    .large-pad {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media (max-width:1199px) {
+    .large-pad {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width:767px) {
+    .large-pad {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width:575px) {
+    .pad-top {
+        padding-top: 30px;
+    }
+    
+    .pad-bottom {
+        padding-bottom: 30px;
+    }
+
+    .margin-top {
+        margin-top: 30px;
+    }
+    
+    .margin-bottom {
+        margin-bottom: 30px;
+    }
+}
+
+.close-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 52;
+    max-width: 50px;
+    height: auto;
+    cursor: pointer;
+}
+
+.video-player{
+    width: 90%;
+}
+
+#video-choice {
+    display: flex;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+.btn-choice {
+    padding: 1rem 2rem;
+    border: 2px solid #FE1414;
+    color: #FE1414;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.btn-choice:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #FE1414;
+}
